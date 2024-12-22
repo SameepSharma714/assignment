@@ -1,0 +1,122 @@
+
+.a,h1,button,h2,pre,i,img{
+    animation-name: identifier;
+    animation-duration: 2s;
+
+
+
+
+}
+@keyframes identifier {
+    from{
+transform: translateX(2000px);
+ 
+    }
+    to{
+     
+    }
+    
+}
+
+body{
+    overflow: hidden;
+}
+.first{
+    display: flex;
+    gap: 450px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    gap: 45px;
+    margin-top: 6%;
+}
+.a{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    font-size: 17px;
+}
+li a:hover{
+    text-decoration: underline purple;
+
+}
+ .a{
+    transition: all 2s ease-in-out 1s;
+}
+.b{
+    margin-top: 2%;
+}
+
+ .b button{
+    height: 35px;
+    width: 110px;
+    border-radius:9px ;
+    border: transparent;
+    background-color: purple;
+    color: white;
+    
+}
+.b button:hover{
+    opacity: 0.8;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+}
+.second{
+    margin-top: 5%;
+}
+.d{
+    display: flex;
+    gap: 20px;
+}
+.e button{
+    height: 35px;
+    width: 110px;
+    border-radius:9px ;
+    border: transparent;
+    background-color: purple;
+    color: white;
+}
+.e button:hover{
+    opacity: 0.8;
+}
+.f button{
+    height: 35px;
+    width: 110px;
+    border-radius:9px ;
+    border: purple 2px solid;
+ background-color: white;
+    color: purple;
+}
+.f button:hover{
+    opacity: 0.8;
+}
+.g{
+    margin-top: 40%;
+    display: flex;
+    gap: 30px;
+}
+img{
+    margin-top: -12%;
+}
+i{
+    font-size: 26px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
